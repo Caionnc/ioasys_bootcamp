@@ -1,16 +1,37 @@
 .header-site{
-    background-image: url(saojanuario.jpeg);
+    background-image: url(cruzdemalta.jpg);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; /*cover*/
     background-attachment: fixed;
     color: #fff;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .content-site{
     padding-top: 200px;
     padding-bottom: 200px;
+}
 
+.header-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header-content{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+    max-height: 50px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    background-color: #FFF;
 }
