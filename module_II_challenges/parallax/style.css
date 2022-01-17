@@ -1,0 +1,139 @@
+.html,
+body {
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+
+  height: 100%;
+  width: 100%;
+}
+
+/*.content-site {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}*/
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-gap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: #dedede;
+  color: #000;
+
+  align-items: center;
+
+  font-family: Roboto;
+  font-size: 17.5px;
+
+  height: 50px;
+}
+
+.header-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+
+  max-height: 50px;
+
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+
+  padding-right: 10px;
+  padding-left: 10px;
+
+  margin-top: 20px;
+
+  background-color: #fff;
+}
+
+.parallax {
+  background-image: url(assets/saojanuarioig.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*cover*/
+  background-attachment: fixed;
+  color: #000;
+
+  min-height: 575px;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 0 0 0 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.kit2021 {
+  background-image: url(assets/kit2021full.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*cover*/
+  background-attachment: fixed;
+  color: #000;
+
+  min-height: 620px;
+
+  padding: 0 0 0 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.kit2021rituais {
+
+  background-image: url(assets/rituaisfull.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*cover*/
+  background-attachment: fixed;
+  color: #000;
+
+  min-height: 620px;
+
+  padding: 0 0 0 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.kit2021-text {
+  font-size: large;
+  font-family: Roboto;
+  color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.kit2021rituais-text {
+  font-size: large;
+  font-family: Roboto;
+  color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
