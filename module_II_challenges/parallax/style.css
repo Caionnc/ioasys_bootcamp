@@ -86,7 +86,7 @@ body {
   background-attachment: fixed;
   color: #000;
 
-  min-height: 850px;
+  min-height: 650px;
 
   padding: 0 0 0 0;
   margin-right: 0;
@@ -94,7 +94,6 @@ body {
 }
 
 .kit2021rituais {
-
   background-image: url(assets/rituaisfull.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +101,7 @@ body {
   background-attachment: fixed;
   color: #000;
 
-  min-height: 850px;
+  min-height: 650px;
 
   padding: 0 0 0 0;
   margin-right: 0;
@@ -132,4 +131,29 @@ body {
 
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.footer-text {
+  font-size: large;
+  font-family: Roboto;
+  color: #000;
+  display: flex;
+
+  margin-top: 40px;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-space {
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 65px;
+  margin-bottom: 65px;
+  padding-left: 10px;
+
+  padding-right: 10px;
+
+  justify-content: center;
 }
