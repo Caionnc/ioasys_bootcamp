@@ -56,7 +56,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #7d2ae8;
+  background: #000;
   opacity: 0.5;
   z-index: 12;
 }
@@ -66,11 +66,12 @@ body {
   backface-visibility: hidden;
 }
 .container .cover img {
-  position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: 10;
+
+  margin-top: 20px;
 }
 .container .cover .text {
   position: absolute;
@@ -174,15 +175,13 @@ body {
 }
 .forms .form-content .button input {
   color: #fff;
-  background: #7d2ae8;
+  background: #000;
   border-radius: 6px;
   padding: 0;
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.forms .form-content .button input:hover {
-  background: #5b13b9;
-}
+
 .forms .form-content label {
   color: #5b13b9;
   cursor: pointer;
@@ -215,4 +214,21 @@ body {
   .container #flip:checked ~ .forms .login-form {
     display: none;
   }
+}
+
+.signup-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-logo-image {
+  width: 10px;
+  height: 10px;
+}
+
+.signup-logo-text {
+  color: #fff;
+
+  margin-top: 50px;
+  margin-left: 50px;
 }
