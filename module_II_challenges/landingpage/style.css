@@ -1,0 +1,54 @@
+.html,
+body {
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+
+  box-sizing: border-box;
+  text-decoration: none;
+
+  font-size: 100%;
+  background: linear-gradient(
+    54.13deg,
+    #010101 26.55%,
+    #00192f 72.7%,
+    #002c3f 106.21%
+  );
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.header-logo {
+  height: 45px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.header-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.header-menu-item :hover {
+  border-bottom: 1.5px solid #ffff;
+}
+
+.main-div{
+  
+}
